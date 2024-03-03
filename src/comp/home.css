@@ -1,0 +1,148 @@
+*{
+    color:solid black;
+    box-sizing: border-box;
+}
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/draw1.webp");
+}
+.card {
+    text-align: center;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #343a40;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.card-img-overlay h4,
+.card-img-overlay p,
+.card-img-overlay h5 {
+    margin: 0;
+}
+
+
+.card-img-overlay {
+    padding: 1rem;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+/* Center the content vertically and horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card-img {
+    border-radius: 20px;
+    box-shadow: 5px 4px 5px 4px rgba(0, 0, 0, 0.734), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Style the card */
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Style the background image */
+.bg-image {
+    border-radius: 35px;
+    position: relative;
+}
+
+.bg-image img {
+    object-fit: cover;
+    width: 50%;
+    height: 50%;
+}
+
+
+
+/* Style the card overlay */
+.card-img-overlay {
+    color: #000000;
+    text-align: center;
+}
+
+/* Style the card content */
+.card-img-overlay h4 {
+    margin-bottom: 0;
+}
+
+
+
+/* Style the temperature */
+.display-2 {
+    font-size: 3rem;
+}
+
+/* Style the weather description */
+h5 {
+    margin-top: 1rem;
+}
+
+.p-5 {
+    font: 1.5em sans-serif;
+    font-weight: 800;
+    text-shadow: 4px 2px 2px rgb(255, 254, 253);
+    word-spacing: 20px;
+    letter-spacing: 2px;
+}
+
+
+@media (max-width: 700px) {
+
+    .bg-image img {
+        object-fit: cover;
+        width: 70%;
+        height: 70%;
+    }
+    .p-5 {
+        font: 1rem sans-serif;
+        font-weight: 800;
+        text-shadow: 2px 2px 2px rgb(255, 254, 253);
+        word-spacing: 20px;
+        letter-spacing: 2px;
+    }
+}
+
+/* Large devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    bg-image img {
+        object-fit: cover;
+        width: 50%;
+        height: 50%;
+    }
+    .p-5 {
+        font: 1.5rem sans-serif;
+        text-shadow: 4px 2px 2px rgb(255, 254, 253);
+        word-spacing: 20px;
+        letter-spacing: 2px;
+    }}
+
+/* Extra large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* No changes needed */
+}
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* No changes needed */
+}
